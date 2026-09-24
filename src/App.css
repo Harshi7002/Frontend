@@ -1,0 +1,100 @@
+/* Page background */
+body {
+  background-color: #121212;
+  color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+/* Main title */
+h1 {
+  color: #ff4c4c;
+  font-weight: bold;
+}
+
+/* Cards */
+.card {
+  background-color: #1e1e1e;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+/* Hover effect */
+.report-card {
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.report-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 6px 18px rgba(255,0,0,0.4);
+}
+
+/* Inputs */
+input,
+textarea,
+select,
+.form-control,
+.form-select {
+  background-color: #2b2b2b !important;
+  color: #ffffff !important;
+  border: 1px solid #444 !important;
+}
+
+/* Placeholder text color */
+::placeholder {
+  color: #bbbbbb !important;
+}
+
+/* Focus styling */
+input:focus,
+textarea:focus,
+select:focus,
+.form-control:focus,
+.form-select:focus {
+  background-color: #2b2b2b !important;
+  color: #ffffff !important;
+  border-color: #ff3b3b !important;
+  box-shadow: none !important;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+}
+
+/* Report accident button */
+.btn-danger {
+  background-color: #ff3b3b;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #cc0000;
+}
+
+/* Location button */
+.btn-secondary {
+  background-color: #3a3a3a;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #555;
+}
+
+/* Injury colors */
+.injury-minor {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.injury-moderate {
+  color: #ff9800;
+  font-weight: bold;
+}
+
+.injury-severe {
+  color: #ff3b3b;
+  font-weight: bold;
+}
